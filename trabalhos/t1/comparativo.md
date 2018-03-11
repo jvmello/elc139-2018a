@@ -24,3 +24,4 @@ Nome: Filipe Simões
 - Site linha de supercomputadores Inspur http://en.inspur.com/inspur/2228467/2228735/2229448/2229451/2229550/index.html
 - Inter Core i7-4510U https://ark.intel.com/pt-br/products/81015/Intel-Core-i7-4510U-Processor-4M-Cache-up-to-3_10-GHz
 - Página na wikipédia sobre taxonomia de Flynn https://en.wikipedia.org/wiki/Flynn%27s_taxonomy
+- Intel LINPACK Benchmark https://software.intel.com/en-us/articles/intel-linpack-benchmark-download-license-agreement
