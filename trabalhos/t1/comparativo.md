@@ -16,7 +16,7 @@ Nome: Filipe Simões
 | Frequência do(s) processador(es)                          |         2.5GHz        |     2.0GHz      |
 | Memória total                                             |       19.840 GB       |      8 GB       |
 | Tipo(s) de interconexão entre os núcleos/processadores    |     10G Ethernet      | 10 Gigabit LAN  |
-| Desempenho Linpack                                        |                       |                 |
+| Desempenho Linpack                                        |     1.714 TFlop/s     |                 |
 
 ### Referências
 - Top 500 List, Inspur TS10000 https://www.top500.org/system/179118
