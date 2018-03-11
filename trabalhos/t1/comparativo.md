@@ -19,7 +19,8 @@ Nome: Filipe Simões
 | Desempenho Linpack                                        |                       |                 |
 
 ### Referências
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- Autor (nome de pessoa ou instituição). Título. URL.
-- ...
+- Top 500 List, Inspur TS10000 https://www.top500.org/system/179118
+- Computador Acer Aspire E5 https://www.acer.com/ac/en/LA/content/model/NX.MLZST.001
+- Site linha de supercomputadores Inspur http://en.inspur.com/inspur/2228467/2228735/2229448/2229451/2229550/index.html
+- Inter Core i7-4510U https://ark.intel.com/pt-br/products/81015/Intel-Core-i7-4510U-Processor-4M-Cache-up-to-3_10-GHz
+- Página na wikipédia sobre taxonomia de Flynn https://en.wikipedia.org/wiki/Flynn%27s_taxonomy
