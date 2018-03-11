@@ -15,7 +15,7 @@ Nome: < João Vitor Machado de Mello >
 | Fabricante e modelo do(s) processador(es)                 |              Intel Xeon Phi 7250 68C         |    Intel(R) Core(TM) i7-4500U CPU             |
 | Frequência do(s) processador(es)                          |          1,4GHz             |        1,80GHz          |
 | Memória total                                             |            102.912 GB           |       8 GB          |
-| Tipo(s) de interconexão entre os núcleos/processadores    |             Bull BXI 1.2          |                 |
+| Tipo(s) de interconexão entre os núcleos/processadores    |             Bull BXI 1.2          |      Intel QPI           |
 | Desempenho Linpack                                        |            947.889 TFlop/s           |                 |
 
 ### Referências
