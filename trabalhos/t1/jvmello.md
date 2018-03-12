@@ -19,6 +19,11 @@ Nome: < João Vitor Machado de Mello >
 | Desempenho Linpack                                        |            947.889 TFlop/s           |       33.1058 GFlop/s          |
 
 ### Referências
+- Top500.org. Página do Top500 sobre o Sequana BXI. https://www.top500.org/system/179038.
+- Atos. Página do Atos sobre o Sequana BXI. https://atos.net/en/products/high-performance-computing-hpc/bullsequana-x-supercomputers/bullsequana-x1000#1496321743305-4f1f87ac-f6f71e2e-349a.
+- Suporte Dell. Suporte para Inspiron 15R 5537. http://www.dell.com/support/home/br/pt/brbsdt1/product-support/servicetag/3wsnlz1/configuration.
+- Intel. Página técnica sobre o Intel® Core™ i7-4500U. https://ark.intel.com/products/75460/Intel-Core-i7-4500U-Processor-4M-Cache-up-to-3_00-GHz.
+
 - Autor (nome de pessoa ou instituição). Título. URL.
 - Autor (nome de pessoa ou instituição). Título. URL.
 - Autor (nome de pessoa ou instituição). Título. URL.
