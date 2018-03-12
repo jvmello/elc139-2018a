@@ -8,8 +8,8 @@ Nome: < João Vitor Machado de Mello >
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
 | Nome/Título                                               | Atos(Sequana BXI - Bull Sequana X1000, Intel Xeon Phi 7250 68C 1.4GHz, Bull BXI 1.2)                      |    Inspiron 15R 5537 A10             |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
-| Classificação de Flynn                                    |                       |                 |
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://insidehpc.com/wp-content/uploads/2016/04/sequana-cell.jpg" width="48"> | <img src="https://www.notebookcheck.info/uploads/tx_nbc2/laptop-inspiron-15r-5537-pdp-1.jpg" width="48">|
+| Classificação de Flynn                                    |           MIMD            |            MIMD     |
 | Memória: compartilhada, distribuída ou ambas?             |                       |                 |
 | Número total de núcleos de processamento                  |           	35.360             |        2           |
 | Fabricante e modelo do(s) processador(es)                 |              Intel Xeon Phi 7250 68C         |    Intel(R) Core(TM) i7-4500U CPU             |
