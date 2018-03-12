@@ -16,7 +16,7 @@ Nome: < João Vitor Machado de Mello >
 | Frequência do(s) processador(es)                          |          1,4GHz             |        1,80GHz          |
 | Memória total                                             |            102.912 GB           |       8 GB          |
 | Tipo(s) de interconexão entre os núcleos/processadores    |             Bull BXI 1.2          |      Intel QPI           |
-| Desempenho Linpack                                        |            947.889 TFlop/s           |                 |
+| Desempenho Linpack                                        |            947.889 TFlop/s           |       33.1058 GFlop/s          |
 
 ### Referências
 - Autor (nome de pessoa ou instituição). Título. URL.
