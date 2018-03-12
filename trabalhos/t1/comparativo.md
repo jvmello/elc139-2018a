@@ -15,7 +15,7 @@ Nome: Filipe Simões
 | Fabricante e modelo do(s) processador(es)                 |     Intel Xeon E5     |  Intel Core i7  |
 | Frequência do(s) processador(es)                          |         2.5GHz        |     2.0GHz      |
 | Memória total                                             |       19.840 GB       |      8 GB       |
-| Tipo(s) de interconexão entre os núcleos/processadores    |     10G Ethernet      | 10 Gigabit LAN  |
+| Tipo(s) de interconexão entre os núcleos/processadores    |     10G Ethernet      |   Intel QPI     |
 | Desempenho Linpack                                        |     1.714 TFlop/s     | 53.3810 GFlop/s |
 
 ### Referências
