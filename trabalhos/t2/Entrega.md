@@ -39,3 +39,13 @@ Pode ser um programa em qualquer linguagem, de preferência estruturado em vári
    - (b) resultados obtidos e 
    - (c) dúvidas e/ou dificuldades encontradas.
 
+
+#container {
+    height:100px;
+    line-height:100px;
+}
+
+#container img {
+    vertical-align:middle;
+    max-height:100%;
+}
