@@ -11,11 +11,11 @@ Respostas:
   - (a) Não, pois em todos os testes efetuados os valores das porcentagens de tempo utilizado por cada função foram sempre muito parecidos. Isso pode ser visto em algumas screenshots tiradas para mostrar o profiling de diferentes configurações, em anexo após as duas respostas.
   - (b) Sim, a função "dot_product". Como pode ser visto nas screenshots abaixo, ela costuma tomar 90% do tempo de execução do programa, o que, com métodos de paralelização, poderia dar uma melhora significativa no desempenho geral da execução.
 
-<img style="float: none;" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc5.jpg" width="500">
-<img style="float: none;" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc6.jpg" width="500">
-<img style="float: none;" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc8.jpg" width="500">
-<img style="float: none;" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc9.jpg" width="500">
-<img style="float: none;" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc5.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc6.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc8.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc9.jpg" width="500">
+<div style="text-align=center"><img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500"></div>
 
 
 ## Parte 2
