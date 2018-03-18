@@ -11,7 +11,7 @@ Respostas:
   - (a) Não, pois em todos os testes efetuados os valores das porcentagens de tempo utilizado por cada função foram sempre muito parecidos. Isso pode ser visto em algumas screenshots tiradas para mostrar o profiling de diferentes configurações, em anexo após as duas respostas.
   - (b) Sim, a função "dot_product". Como pode ser visto nas screenshots abaixo, ela costuma tomar 90% do tempo de execução do programa, o que, com métodos de paralelização, poderia dar uma melhora significativa no desempenho geral da execução.
 
-<div id="container">Figura 1: Relatório de perfil(tamanho dos vetores = 30.000.000, repetições = 90)
+Figura 1: Relatório de perfil(tamanho dos vetores = 30.000.000, repetições = 90)
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc5.jpg" width="500">
 
 Figura 2: Relatório de perfil(tamanho dos vetores = 300, repetições = 10)
@@ -22,7 +22,7 @@ Figuras 3 e 4: Relatórios de perfil(tamanho dos vetores = 3.000.000, repetiçõ
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc9.jpg" width="500">
 
 Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 25)
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500"></div>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500">
 
 
 
@@ -40,12 +40,3 @@ Pode ser um programa em qualquer linguagem, de preferência estruturado em vári
    - (c) dúvidas e/ou dificuldades encontradas.
 
 
-#container {
-    height:100px;
-    line-height:100px;
-}
-
-#container img {
-    vertical-align:middle;
-    max-height:100%;
-}
