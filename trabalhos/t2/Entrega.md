@@ -13,12 +13,16 @@ Respostas:
 
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc5.jpg" width="500">
 Figura 1: Relatório de perfil(tamanho dos vetores = 30.000.000, repetições = 90)
+
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc6.jpg" width="500">
 Figura 2: Relatório de perfil(tamanho dos vetores = 300, repetições = 10)
+
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc8.jpg" width="500">
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc9.jpg" width="500">
 Figuras 3 e 4:Relatórios de perfil(tamanho dos vetores = 3.000.000, repetições = 25)
-<div style="text-align=center"><img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500">Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 25)</div>
+
+<div style="text-align=center"><img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/sc10.jpg" width="500">
+  Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 25)</div>
 
 
 
