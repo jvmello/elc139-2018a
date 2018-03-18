@@ -7,9 +7,9 @@ Nome: João Vitor Machado de Mello
 
 ## Parte 1
 
-10. Responda:
-  - (a) O perfil é afetado pelas opções de configuração?
-  - (b) Pelo perfil de execução, há alguma função que poderia ser candidata a paralelização? Por quê?
+Respostas:
+  - (a) Não, pois em todos os testes efetuados os valores das porcentagens de tempo utilizado por cada função foram sempre muito parecidos. Isso pode ser visto em algumas screenshots tiradas para mostrar o profiling de diferentes configurações, em anexo após as duas respostas.
+  - (b) Sim, a função "dot_product". Como pode ser visto nas screenshots abaixo, ela costuma tomar 90% do tempo de execução do programa, o que, com métodos de paralelização, poderia dar uma melhora significativa no desempenho geral da execução.
 
 
 
