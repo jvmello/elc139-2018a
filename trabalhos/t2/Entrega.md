@@ -26,7 +26,7 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 
 
 
-## Parte 2
+## Parte 2(VisualVM, Java Mission Control)
 
 
 + Escolha um programa que você tenha desenvolvido, ou que seja desenvolvido por outros mas que você conheça o código. 
