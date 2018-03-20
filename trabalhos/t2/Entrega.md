@@ -4,6 +4,10 @@ Nome: João Vitor Machado de Mello
 
 # T2: Experiências com Profilers
 
+## Sumário
+
+  Para este trabalho, o programa escolhido será um "conversor de schedules" para gerenciadores de banco de dados. O trabalho foi desenvolvido para a disciplina de Implementação de Banco de Dados e consistia em converter um arquivo com várias instruções em um schedule(sequência de execução de um banco) funcional.
+  Como profilers, foram escolhidos o VisualVM e o Java Mission Control. Serão testados arquivos de tamanhos variados para a geração de schedules e visualização de perfil pelos programas escolhidos e citados.
 
 ## Parte 1
 
