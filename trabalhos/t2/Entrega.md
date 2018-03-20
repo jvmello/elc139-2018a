@@ -42,16 +42,14 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
    O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.
    
 Figura 6: Tela inicial do VisualVM
+   
+   Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.
+Um fator que possa ter contribuído para esse resultado pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.
+Os resultados podem ser vistos nas screenshots abaixo.
 
+Figuras 7 a 11.
 
-+ Escolha um programa que você tenha desenvolvido, ou que seja desenvolvido por outros mas que você conheça o código. 
-Pode ser um programa em qualquer linguagem, de preferência estruturado em vários subprogramas (procedimentos, funções, métodos...), e que possa ter a entrada variada facilmente.
++ Java Mission Control:
 
-+ Escolha 2 profilers para a linguagem alvo e procure repetir os passos da Parte 1, adequando-os a possíveis diferenças.
-
-+ Observe e faça anotações sobre: 
-   - (a) particularidades de instalação, recursos ou funcionamento dos profilers, 
-   - (b) resultados obtidos e 
-   - (c) dúvidas e/ou dificuldades encontradas.
-
+## Referências
 
