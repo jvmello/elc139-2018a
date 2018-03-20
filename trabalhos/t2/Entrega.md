@@ -28,6 +28,12 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 
 ## Parte 2(VisualVM, Java Mission Control)
 
++ VisualVM:
+  - O VisualVM é um profiler específico para Java que tem como objetivo verificar problemas de desempenho e ajudar o desenvolvedor a encontrar soluções para problemas de execução baseando-se em relatórios de uso de threads, CPU e memória durante a execução do determinado aplicativo.
+   O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.
+   
+Figura 6: Tela inicial do VisualVM
+
 
 + Escolha um programa que você tenha desenvolvido, ou que seja desenvolvido por outros mas que você conheça o código. 
 Pode ser um programa em qualquer linguagem, de preferência estruturado em vários subprogramas (procedimentos, funções, métodos...), e que possa ter a entrada variada facilmente.
