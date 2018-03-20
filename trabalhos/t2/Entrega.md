@@ -6,7 +6,7 @@ Nome: João Vitor Machado de Mello
 
 ## Sumário
 
-  Para este trabalho, o programa escolhido será um "conversor de schedules" para gerenciadores de banco de dados. O trabalho foi desenvolvido para a disciplina de Implementação de Banco de Dados e consistia em converter um arquivo com várias instruções em um schedule(sequência de execução de um banco) funcional.
+  Para este trabalho, o programa escolhido será um "conversor de schedules" para gerenciadores de banco de dados. O trabalho foi desenvolvido para a disciplina de Implementação de Banco de Dados e consistia em converter um arquivo com várias instruções em um schedule(sequência de execução de um banco) funcional.<br>
   Várias funções foram desenvolvidas para o funcionamento do programa. As principais envolvem:
     - Carregamento e leitura de arquivos;
     - Conversão dos mesmos para uma linguagem que o tradutor entenderia;
