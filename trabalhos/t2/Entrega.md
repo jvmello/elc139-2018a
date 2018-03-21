@@ -44,9 +44,9 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 Figura 6: Tela inicial do VisualVM
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc6.png" width="500"><br>
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um fator que possa ter contribuído para esse perfil pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um fator que possa ter contribuído para esse perfil pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.<br>
 
 Figuras 7 a 12.
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc7.png" width="500">
@@ -62,8 +62,7 @@ Figuras 7 a 12.
 
 Figura 13: Tela inicial do YourKit<br>
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc13.png" width="500"><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
 
 Figuras
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc14.png" width="500">
