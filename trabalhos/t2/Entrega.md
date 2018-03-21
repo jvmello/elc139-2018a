@@ -35,18 +35,18 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 
 
 
-## Parte 2(VisualVM, Java Mission Control)
+## Parte 2
 
 + VisualVM:
   - O VisualVM é um profiler específico para Java que tem como objetivo verificar problemas de desempenho e ajudar o desenvolvedor a encontrar soluções para problemas de execução baseando-se em relatórios de uso de threads, CPU e memória durante a execução do determinado aplicativo.
-   O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.
+&nbsp;&nbsp;&nbsp;&nbsp;O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.
    
 Figura 6: Tela inicial do VisualVM
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc6.png" width="500">
    
-   Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.
-Um fator que possa ter contribuído para esse resultado pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.
-Os resultados podem ser vistos nas screenshots abaixo.
+&nbsp;&nbsp;&nbsp;&nbsp;Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.
+&nbsp;&nbsp;&nbsp;&nbsp;Um fator que possa ter contribuído para esse resultado pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.
+&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.
 
 Figuras 7 a 12.
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc7.png" width="500">
@@ -59,12 +59,12 @@ Figuras 7 a 12.
 + YourKit:
 
   -   Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.
-O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.
+&nbsp;&nbsp;&nbsp;&nbsp;O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.
 
 Figura 13: Tela inicial do YourKit
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc13.png" width="500">
 
-Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.
+&nbsp;&nbsp;&nbsp;&nbsp;Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.
 
 Figuras
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc14.png" width="500">
