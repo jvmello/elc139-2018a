@@ -12,7 +12,7 @@ Nome: João Vitor Machado de Mello
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Conversão dos mesmos para uma linguagem que o tradutor entenderia;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Processamento das consultas traduzidas em um schedule completo;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Funções para interface envolvendo botões e caixas de texto para melhor entendimento do que estava acontecendo durante a execução do aplicativo.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Como profilers, foram escolhidos o VisualVM e o Java Mission Control. Serão testados arquivos de tamanhos variados para a geração de schedules e visualização de perfil pelos programas escolhidos e citados.<br></p>
+&nbsp;&nbsp;&nbsp;&nbsp;Como profilers, foram escolhidos o VisualVM e o YourKit. Serão testados arquivos de tamanhos variados para a geração de schedules e visualização de perfil pelos programas escolhidos e citados.<br></p>
 
 ## Parte 1
 
@@ -49,7 +49,16 @@ Os resultados podem ser vistos nas screenshots abaixo.
 
 Figuras 7 a 11.
 
-+ Java Mission Control:
++ YourKit:
+
+- Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.
+O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.
+
+Figura 12: Tela inicial do YourKit
+
+Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.
+
+Figuras
 
 ## Referências
 
