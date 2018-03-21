@@ -49,17 +49,17 @@ Figura 6: Tela inicial do VisualVM<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.<br>
 
 Figura 7: Monitor de desempenho do VisualVM.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc7.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc7.png" width="500"><br><br>
 Figura 8: Visualizador de threads em execução.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc8.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc8.png" width="500"><br><br>
 Figura 9: Visualizador de processos sendo utilizados pelo aplicativo.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc9.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc9.png" width="500"><br><br>
 Figura 10: Visualizador de threads ao vivo e seus tempos de uso de CPU.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc10.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc10.png" width="500"><br><br>
 Figura 11: Monitor de eventos disparados na execução do programa.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc11.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc11.png" width="500"><br><br>
 Figura 12: Monitor de desempenho após a execução do programa.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc12.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc12.png" width="500"><br><br>
 
 + YourKit:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.<br>
@@ -70,14 +70,14 @@ Figura 13: Tela inicial do YourKit<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os índices alcançados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
 
 Figura 14s e 15: Monitor de uso de CPU do YourKit antes e durante a execução do programa.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc14.png" width="500"><br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc15.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc14.png" width="500"><br><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc15.png" width="500"><br><br>
 Figuras 16 e 17: Monitor de uso de memória do YourKit antes e durante a execução do programa..<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc16.png" width="500"><br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc17.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc16.png" width="500"><br><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc17.png" width="500"><br><br>
 Figuras 18 e 19: Monitor de threads em execução antes e durante a execução do programa.<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc18.png" width="500"><br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc19.png" width="500"><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc18.png" width="500"><br><br>
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc19.png" width="500"><br><br>
 
 ## Referências
 - Stackify. List of Java Profilers: 3 Different Types and Why You Need All of Them. https://stackify.com/java-profilers-3-types/;
