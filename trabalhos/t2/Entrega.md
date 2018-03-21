@@ -61,4 +61,10 @@ Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/m
 Figuras
 
 ## Referências
+https://visualvm.github.io/
+https://www.youtube.com/watch?v=z8n7Bg7-A4I
+http://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.5.0/eclipse/
+https://www.youtube.com/watch?v=qytuEgVmhsI
+https://www.yourkit.com/
+https://www.youtube.com/watch?v=q6NlxDesFPg
 
