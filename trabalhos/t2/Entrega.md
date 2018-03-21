@@ -8,10 +8,10 @@ Nome: João Vitor Machado de Mello
 
 &nbsp;&nbsp;&nbsp;&nbsp;Para este trabalho, o programa escolhido será um "conversor de schedules" para gerenciadores de banco de dados. O trabalho foi desenvolvido para a disciplina de Implementação de Banco de Dados e consistia em converter um arquivo com várias instruções em um schedule(sequência de execução de um banco) funcional.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Várias funções foram desenvolvidas para o funcionamento do programa. As principais envolvem:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   - Carregamento e leitura de arquivos;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   - Conversão dos mesmos para uma linguagem que o tradutor entenderia;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   - Processamento das consultas traduzidas em um schedule completo;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   - Funções para interface envolvendo botões e caixas de texto para melhor entendimento do que estava acontecendo durante a execução do aplicativo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Carregamento e leitura de arquivos;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Conversão dos mesmos para uma linguagem que o tradutor entenderia;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Processamento das consultas traduzidas em um schedule completo;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Funções para interface envolvendo botões e caixas de texto para melhor entendimento do que estava acontecendo durante a execução do aplicativo.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Como profilers, foram escolhidos o VisualVM e o YourKit. Serão testados arquivos de tamanhos variados para a geração de schedules e visualização de perfil pelos programas escolhidos e citados.<br></p>
 
 ## Parte 1
@@ -61,7 +61,7 @@ Figuras 7 a 12.
 &nbsp;&nbsp;&nbsp;&nbsp;O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.<br>
 
 Figura 13: Tela inicial do YourKit<br>
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc13.png" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc13.png" width="500"><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
 
