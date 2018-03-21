@@ -62,7 +62,7 @@ Figuras 7 a 12.
 
 Figura 13: Tela inicial do YourKit<br>
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc13.png" width="500"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os índices alcançados foram bem parecidos com os do VisualVM. Porções maiores de CPU/memória e um número maior de threads executando ao ler o arquivo do que à conversão "final" em si.<br>
 
 Figuras
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc14.png" width="500">
