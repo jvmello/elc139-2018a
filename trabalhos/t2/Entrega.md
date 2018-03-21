@@ -37,7 +37,7 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 
 ## Parte 2
 
-+ VisualVM:
++ VisualVM:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O VisualVM é um profiler específico para Java que tem como objetivo verificar problemas de desempenho e ajudar o desenvolvedor a encontrar soluções para problemas de execução baseando-se em relatórios de uso de threads, CPU e memória durante a execução do determinado aplicativo.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.<br>
    
@@ -56,7 +56,7 @@ Figuras 7 a 12.
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc11.png" width="500">
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc12.png" width="500">
 
-+ YourKit:
++ YourKit:<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.<br>
