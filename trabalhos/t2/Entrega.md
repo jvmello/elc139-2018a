@@ -42,11 +42,11 @@ Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 2
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema é de fácil instalação e possui um executável, sendo necessária apenas a extração de seus arquivos. Todos os aplicativos java sendo executados no sistema são mostrados na barra lateral, como mostrado na figura 6. É só clicar numa delas e obter informações do processo escolhido.<br>
    
 Figura 6: Tela inicial do VisualVM
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc6.png" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc6.png" width="500"><br>
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um fator que possa ter contribuído para esse resultado pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados surpreenderam(pelo menos a mim). O processo de abertura e conversão do arquivo de texto exigia mais CPU/memória e "despertava" mais threads que o processo de conversão de instruções para schedule.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um fator que possa ter contribuído para esse resultado pode ser o excesso de repetições e funções mais internas durante a conversão, o que acaba por exigir mais do computador enquanto executa. Nesse caso, essas funções poderiam se beneficiar por paralelismo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os resultados podem ser vistos nas screenshots abaixo.<br>
 
 Figuras 7 a 12.
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/VisualVM/sc7.png" width="500">
