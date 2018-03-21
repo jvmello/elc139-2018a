@@ -21,17 +21,17 @@ Nome: João Vitor Machado de Mello
   - (b) Sim, a função "dot_product". Como pode ser visto nas screenshots abaixo, ela costuma tomar 90% do tempo de execução do programa, o que, com métodos de paralelização, poderia dar uma melhora significativa no desempenho geral da execução.
 
 Figura 1: Relatório de perfil(tamanho dos vetores = 30.000.000, repetições = 90)
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/Gprof/screenshots/sc5.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/Gprof/sc1.png" width="500">
 
 Figura 2: Relatório de perfil(tamanho dos vetores = 300, repetições = 10)
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/Gprof/screenshots/sc6.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/Gprof/sc2.png" width="500">
 
 Figuras 3 e 4: Relatórios de perfil(tamanho dos vetores = 3.000.000, repetições = 25)
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/Gprof/screenshots/sc8.jpg" width="500">
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/Gprof/screenshots/sc9.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/Gprof/sc3.png" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/Gprof/sc4.png" width="500">
 
 Figura 5: Relatório de perfil(tamanho dos vetores = 1.000.000, repetições = 25)
-<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/Gprof/screenshots/sc10.jpg" width="500">
+<img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/Gprof/sc5.png" width="500">
 
 
 
