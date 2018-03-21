@@ -75,11 +75,11 @@ Figuras
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc19.png" width="500">
 
 ## Referências
-https://stackify.com/java-profilers-3-types/
-https://visualvm.github.io/
-https://www.youtube.com/watch?v=z8n7Bg7-A4I
-http://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.5.0/eclipse/
-https://www.youtube.com/watch?v=qytuEgVmhsI
-https://www.yourkit.com/
-https://www.youtube.com/watch?v=q6NlxDesFPg
+- https://stackify.com/java-profilers-3-types/
+- https://visualvm.github.io/
+- https://www.youtube.com/watch?v=z8n7Bg7-A4I
+- http://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.5.0/eclipse/
+- https://www.youtube.com/watch?v=qytuEgVmhsI
+- https://www.yourkit.com/
+- https://www.youtube.com/watch?v=q6NlxDesFPg
 
