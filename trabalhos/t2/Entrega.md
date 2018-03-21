@@ -75,11 +75,11 @@ Figuras
 <img src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t2/screenshots/YourKit/sc19.png" width="500">
 
 ## Referências
-- https://stackify.com/java-profilers-3-types/
-- https://visualvm.github.io/
-- https://www.youtube.com/watch?v=z8n7Bg7-A4I
-- http://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.5.0/eclipse/
-- https://www.youtube.com/watch?v=qytuEgVmhsI
-- https://www.yourkit.com/
-- https://www.youtube.com/watch?v=q6NlxDesFPg
+- Stackify. List of Java Profilers: 3 Different Types and Why You Need All of Them. https://stackify.com/java-profilers-3-types/;
+- VisualVM. VisualVM: All-in-One Java Troubleshooting Tool. https://visualvm.github.io/;
+- VisualVM. Introduction to Java VisualVM. https://www.youtube.com/watch?v=z8n7Bg7-A4I;
+- Oracle. Oracle Java Mission Control. http://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.5.0/eclipse/;
+- Java(vídeo por James Weaver). Java Mission Control Demo. https://www.youtube.com/watch?v=qytuEgVmhsI;
+- YourKit. The Industry Leader in .NET & Java Profiling. https://www.yourkit.com/;
+- Karsten Thoms. Tackling Performance Issues with YourKit. https://www.youtube.com/watch?v=q6NlxDesFPg.
 
