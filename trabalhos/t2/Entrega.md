@@ -51,7 +51,7 @@ Figuras 7 a 11.
 
 + YourKit:
 
-- Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.
+  -   Por problemas de instalação com o Java Mission Control(inicialmente planejado para ser utilizado neste trabalho), a ferramenta YourKit foi escolhida.
 O YourKit é um profiler Java muito parecido em objetivos com o VisualVM. Ambos buscam traçar um perfil em desempenho de execução do aplicativo. Entretanto, o YourKit parece ser mais "técnico", fornecendo até prováveis problemas de deadlocks em suas análises. Outro ponto diferencial é a visualização de dados ser mais "lenta", possibilitando ao seu usuário a visualização de dados de maneira mais eficiente.
 
 Figura 12: Tela inicial do YourKit
