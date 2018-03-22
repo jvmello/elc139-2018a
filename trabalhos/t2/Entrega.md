@@ -33,9 +33,13 @@ Resposta 2) Pelo perfil de execução, há alguma função que poderia ser candi
 Resposta 1) Particularidades de instalação, recursos ou funcionamento dos profiler: O profiler é instalável normalmente via .exe. O profiler é pago e fornece uma versão de 30D grátis. O profiler oferece a opção de escolher o intervalo de testes do programa, pegando amostras dele. O funcionamento é dado executando um .exe existente.
 
 Resposta 2) Resultados obtidos
+
 <img src = "https://i.imgur.com/GcuCvzn.png" width="480">
+
 O programa mostra o número de threads usadas (0 em caso de não ter uso de threads) e quanto tempo pausou em cada thread. Também mostra qual das funções do programa que teve maior tempo de CPU
+
 <img src = "https://i.imgur.com/qbRiVfI.png" width="480">
+
 Também é mostrado o tempo médio de uso EFETIVO da CPU em um histograma que mede o quão bem feito é o uso da CPU.
 
 Resposta 3) Dúvidas e/ou dificuldades encontradas: Não houveram dúvidas ou dificuldades, a ferramenta foi facilmente instalada e executada, com poucas configurações pra serem feitas.
@@ -45,7 +49,9 @@ Resposta 3) Dúvidas e/ou dificuldades encontradas: Não houveram dúvidas ou di
 Resposta 1) Particularidades de instalação, recursos ou funcionamento dos profiler: O profiler é instalável normalmente via .exe. O profiler é grátis e funciona para códigos .c e .cpp. O profiler lista todos os recursos em execução no computador para mostrar o quanto de CPU os mesmos consomem. Funciona semelhante ao "Gerenciador de Tarefas do Windows". O funcionamento é dado lendo um .exe e dado um diretório para resultados.
 
 Resposta 2) Resultados obtidos
+
 <img src = "https://i.imgur.com/F58L9sM.png" width="480">
+
 O profiler demonstra poucas informações, as principais sendo o tempo exclusivo, tempo total executado, % de uso exclusivo da CPU, % de uso total da CPU e os módulos usados. Para executar o código do ArrayMaximo foi feito um loop infinito já que o profiler precisava ser inicializado ao mesmo tempo que o executável. A execução foi parada com 9.51s
 
 Resposta 3) Dúvidas e/ou dificuldades encontradas: O profiler tem interface confusa, e é pouco intuitivo, para 'profilar' um programa é necessário dar cliques repetidos no executável do console. 
