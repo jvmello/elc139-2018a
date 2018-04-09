@@ -4,7 +4,7 @@ ELC139 - Programação Paralela
 
 Foi usado o Windows 10 em um computador Intel Core i7-4510U com 2 CPU.
 
-##Parte 1 - Pthreads
+## Parte 1 - Pthreads
 
 1) -
 
@@ -13,11 +13,13 @@ Foi usado o Windows 10 em um computador Intel Core i7-4510U com 2 CPU.
 3) -
 
 4) Tabelinha
+<img src = "add link" width="480">
 
 5) -
 
-##Parte 2 - OPEN MP
+## Parte 2 - OPEN MP
 
-1) Código na pasta referente
+1) Código [aqui](pasta/arquivo)
 
 2) Tabelinha desempenho
+<img src = "add link" width="480">
