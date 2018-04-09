@@ -15,7 +15,7 @@ Nome: João Vitor Machado de Mello
 
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
-4. Para um vetor de MIL(1000) elementos:
+4. Para um vetor de MIL(1000) elementos:<br>
 | Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
 |-----------------|--------------|-------------------|
 | 1000000         | 1            | 4425149,3         |
@@ -23,7 +23,7 @@ Nome: João Vitor Machado de Mello
 | 250000          | 4            | 3500102,6         |
 | 125000          | 8            | 3787474,5         |
 | 62500           | 16           | 6590990,8         |
-   Para um vetor de DOIS MIL(2000) elementos:
+   <br>Para um vetor de DOIS MIL(2000) elementos:<br>
 | Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
 |-----------------|--------------|-------------------|
 | 1000000         | 1            | 11518515,9        |
@@ -31,7 +31,7 @@ Nome: João Vitor Machado de Mello
 | 250000          | 4            | 7184871,6         |
 | 125000          | 8            | 5784597,6         |
 | 62500           | 16           | 6590990,8         |
-   Para um vetor de CINCO MIL(5000) elementos:
+   <br>Para um vetor de CINCO MIL(5000) elementos:<br>
 | Núm. Repetições | Núm. Threads |  Tempo Médio(usec) |
 |-----------------|--------------|--------------------|
 | 1000000         | 1            | 28547986,1         |
