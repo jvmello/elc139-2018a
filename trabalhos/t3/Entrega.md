@@ -45,7 +45,7 @@ Nome: João Vitor Machado de Mello
 | 125000          | 8            | 19842037,4         |
 | 62500           | 16           | 19673411           |
 
-5. Não, pois, com a remoção do semáforo, as threads podem trabalhar com os mesmos dados, mudando o resultado final da execução.
+5. Não, pois, com a remoção do semáforo, as threads podem manipular os mesmos dados ao mesmo tempo, o que mudaria resultado ao final da execução.
 
 ## Open MP
 
