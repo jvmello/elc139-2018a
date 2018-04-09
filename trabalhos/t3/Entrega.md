@@ -6,10 +6,10 @@ Nome: João Vitor Machado de Mello
 
 ## Questões Pthreads
 
-1. Particionamento: O particionamento é feito de uma maneira onde cada thread possui um vetor próprio para trabalhar, diminuindo o trabalho total do processo;
-  Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem - está manipulando os dados naquele momento como uma maneira de prevenção de conflitos;
-  Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;
-  Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador.
+1. Particionamento: O particionamento é feito de uma maneira onde cada thread possui um vetor próprio para trabalhar, diminuindo o trabalho total do processo;<br>
+  Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem - está manipulando os dados naquele momento como uma maneira de prevenção de conflitos;<br>
+  Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;<br>
+  Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador.<br>
 
 2. No exemplo do arquivo "readme", em volta de três segundos.
 
