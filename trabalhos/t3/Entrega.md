@@ -7,18 +7,18 @@ Nome: João Vitor Machado de Mello
 ## Questões Pthreads
 
 1. 
-- Particionamento: O particionamento é feito de uma maneira onde cada thread possui um vetor próprio para trabalhar, diminuindo o trabalho total do processo.
-- Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem - está manipulando os dados naquele momento como uma maneira de prevenção de conflitos.
-- Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados.
-- Mapeamento: 
+- Particionamento: O particionamento é feito de uma maneira onde cada thread possui um vetor próprio para trabalhar, diminuindo o trabalho total do processo;
+- Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem - está manipulando os dados naquele momento como uma maneira de prevenção de conflitos;
+- Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;
+- Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador.
 
-2. Considerando o tempo (em segundos) mostrado na saída do programa, qual foi a aceleração com o uso de threads?
+2. No exemplo do arquivo "readme", em volta de três segundos.
 
-3. A aceleração (speedup) se sustenta para outros tamanhos de vetores, números de threads e repetições? Para responder a essa questão, você terá que realizar diversas execuções, variando o tamanho do problema (tamanho dos vetores e número de repetições) e o número de threads (1, 2, 4, 8..., dependendo do número de núcleos). Cada caso deve ser executado várias vezes, para depois calcular-se um tempo de processamento médio para cada caso. Atenção aos fatores que podem interferir na confiabilidade da medição: uso compartilhado do computador, tempos muito pequenos, etc.
+3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
-4. Elabore um gráfico/tabela de aceleração a partir dos dados obtidos no exercício anterior.
+4. Elabore um gráfico/tabela de aceleração a partir dos dados obtidos no exercício anterior(fazer tabela).
 
-5. Explique as diferenças entre [pthreads_dotprod.c](pthreads_dotprod/pthreads_dotprod.c) e [pthreads_dotprod2.c](pthreads_dotprod/pthreads_dotprod2.c). Com as linhas removidas, o programa está correto?
+5. Não, pois, com a remoção do semáforo, as threads podem trabalhar com os mesmos dados, mudando o resultado final da execução.
 
 ## Open MP
 
