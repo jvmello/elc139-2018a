@@ -11,7 +11,7 @@ Nome: João Vitor Machado de Mello
   Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;<br>
   Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador.<br>
 
-2. No exemplo do arquivo "readme", em volta de três segundos.
+2. No exemplo do arquivo README.md(https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos.
 
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
