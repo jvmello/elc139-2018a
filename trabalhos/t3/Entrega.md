@@ -48,6 +48,8 @@ Nome: João Vitor Machado de Mello
 5. Não, pois, com a remoção do semáforo, as threads podem manipular os mesmos dados ao mesmo tempo, o que mudaria resultado ao final da execução.
 
 ## Open MP
+1. [Programa](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/openmp/newomp.c)
 
+2.
 
 
