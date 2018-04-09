@@ -37,7 +37,9 @@ Com o dobro de elementos do teste inicial, foi dada uma queda de 4% da aceleraç
 
 ## Parte 2 - OPEN MP
 
-1) Código [aqui](pasta/arquivo)
+1) Código [aqui](openmp/dotprod_opm.c)
 
-2) Tabelinha desempenho
-<img src = "add link" width="480">
+2) 
+<img src = "https://i.imgur.com/cS9hUvt.png" width="480">
+
+Usando o código OpenMP, foi mantida uma aceleração entre 33-35% em todos os testes feitos, uma variância muito menor que a usando pthreads. Considerando grandes casos, seria mais vantajoso usar o OpenMP pois apesar de resultados parecidos, o OpenMP mantem uma porcentagem de aceleração quase que constante.
