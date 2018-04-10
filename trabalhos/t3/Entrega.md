@@ -22,10 +22,8 @@ Nome: João Vitor Machado de Mello
 
 2. No exemplo do arquivo [README.md](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos.
 <p align="center">
-  <img width="725" height="97" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png"><br>
-</p>
-<p align="center">
-  <img width="730" height="95" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc2.png"><be>
+  <img width="725" height="97" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png">
+  <img width="730" height="95" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc2.png"><br>
 Figuras 4 e 5: Execução do código de acordo com as instruções do documento README.md.
 </p>
 
