@@ -50,6 +50,34 @@ Nome: João Vitor Machado de Mello
 ## Open MP
 1. [Programa](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/openmp/newomp.c)
 
-2.
+2. Para um vetor de MIL(1000) elementos:<br>
+
+| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+|:---------------:|:------------:|:-----------------:|
+| 1000000         | 1            | 5474294           |
+| 500000          | 2            | 2815437,6         |
+| 250000          | 4            | 2814686,9         |
+| 125000          | 8            | 2765119           |
+| 62500           | 16           | 2658835,3         |
+
+   <br>Para um vetor de DOIS MIL(2000) elementos:<br>
+   
+| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+|:---------------:|:------------:|:-----------------:|
+| 1000000         | 1            | 10763214,2        |
+| 500000          | 2            | 9537260,6         |
+| 250000          | 4            | 8062672,5         |
+| 125000          | 8            | 10062858,9        |
+| 62500           | 16           | 7168232,7         |
+
+   <br>Para um vetor de CINCO MIL(5000) elementos:<br>
+   
+| Núm. Repetições | Núm. Threads |  Tempo Médio(usec) |
+|:---------------:|:------------:|:------------------:|
+| 1000000         | 1            | 2854         |
+| 500000          | 2            | 19009499,9         |
+| 250000          | 4            | 20452339,1         |
+| 125000          | 8            | 19842037,4         |
+| 62500           | 16           | 19673411           |
 
 
