@@ -7,12 +7,16 @@ Nome: João Vitor Machado de Mello
 ## Questões Pthreads
 
 1. Particionamento: O particionamento é feito de uma maneira onde cada thread possui um vetor próprio para trabalhar, diminuindo o trabalho total do processo;<br>
-![Image of Yaktocat](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/particionamento.png)
+![Particionamento](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/particionamento.png)
   Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem - está manipulando os dados naquele momento como uma maneira de prevenção de conflitos;<br>
   Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;<br>
+  ![Comunicação/Aglomeração](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/comunicacao_aglomeracao.png)
   Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador.<br>
+![Mapeamento](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/mapeamento.png)
 
 2. No exemplo do arquivo [README.md](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos.
+![SC1](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png)
+![SC2](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc2.png)
 
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
