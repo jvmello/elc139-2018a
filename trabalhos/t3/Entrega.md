@@ -32,7 +32,7 @@ Nome: João Vitor Machado de Mello
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
 4. Para um vetor de MIL(1000) elementos:<br>
-
+<p align="center">
 | Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
 | 1.000.000         | 1            | 4.425.149,3         |
@@ -60,7 +60,7 @@ Nome: João Vitor Machado de Mello
 | 250.000          | 4            | 20.452.339,1         |
 | 125.000          | 8            | 19.842.037,4         |
 | 62.500           | 16           | 19.673.411           |
-
+</p>
 5. Não, pois, com a remoção do semáforo, as threads podem manipular os mesmos dados ao mesmo tempo, o que mudaria resultado ao final da execução.
 
 ## Open MP
