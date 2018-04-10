@@ -15,7 +15,10 @@ Nome: João Vitor Machado de Mello
 ![Mapeamento](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/mapeamento.png)
 
 2. No exemplo do arquivo [README.md](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos.
-![SC1](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png">
+</p>
+![SC1]()
 ![SC2](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc2.png)
 
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
