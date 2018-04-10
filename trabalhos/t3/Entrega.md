@@ -11,11 +11,11 @@ Nome: João Vitor Machado de Mello
   <img width="563" height="154" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/particionamento.png"><br>Figura 1: Representação em código da seção de particionamento.
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comunicação: As threads não dependem exatamente de si para apresentarem resultado, mas possuem um semáforo para controlar quem  está manipulando os dados naquele momento como uma maneira de prevenção de conflitos;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aglomeração: Os dados vão sendo salvos em novo vetor à medida que uma thread faz seu cálculo, mas apenas depois de ela "bloquear" o acesso de outras threads aos dados;<br>
   <p align="center">
   <img width="359" height="180" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/comunicacao_aglomeracao.png"><br>Figura 2: Representação em código das seções comunicação/aglomeração.
 </p>
-   	 Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador e o número de threads possível.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mapeamento: Os processos vão sendo criados de forma dinâmica de acordo com a disponibilidade do processador e o número de threads possível.<br>
   <p align="center">
   <img width="626" height="366" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/mapeamento.png"><br>Figura 3: Representação em código da seção de mapeamento.
 </p>
