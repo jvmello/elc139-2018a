@@ -59,7 +59,7 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 125.000          | 8            | 19.842.037,4         |
 | 62.500           | 16           | 19.673.411           |
 
-<br> Tabelas 1, 2, e 3: Resultados baseando-se nos dados representados e em um tempo médio armazenado após DEZ(10) execuções realizadas.<br>
+<p align="center"><br> Tabelas 1, 2, e 3: Resultados baseando-se nos dados representados e em um tempo médio armazenado após DEZ(10) execuções realizadas.<br><br></p>
 
 5. Não, pois, com a remoção do semáforo, as threads podem manipular os mesmos dados ao mesmo tempo, o que mudaria resultado ao final da execução.
 
@@ -96,5 +96,5 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 125.000          | 8            | 28.834.331           |
 | 62.500           | 16           | 25.231.439,5         |
 
-<br> Tabelas 4, 5, e 6: Resultados baseando-se nos dados representados e em um tempo médio armazenado após DEZ(10) execuções realizadas.<br>
+<p align="center"><br> Tabelas 4, 5, e 6: Resultados baseando-se nos dados representados e em um tempo médio armazenado após DEZ(10) execuções realizadas.<br></p>
 
