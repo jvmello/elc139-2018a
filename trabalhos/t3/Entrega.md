@@ -20,7 +20,7 @@ Nome: João Vitor Machado de Mello
   <img width="626" height="366" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/mapeamento.png"><br>Figura 3: Representação em código da seção de mapeamento.
 </p>
 
-2. No exemplo do arquivo [README.md](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos.
+2. No exemplo do arquivo [README.md](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/README.md), em volta de três segundos. Mas, peculiarmente, três segundos PRA MAIS(aparentemente, a máquina virtual possui problemas). Um speedup "inverso" de 1,39.
 <p align="center">
   <img width="725" height="97" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc1.png">
   <img width="730" height="95" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/screenshots/sc2.png"><br>
@@ -29,9 +29,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 
 3. Sim, mas em vetores pequenos(+/- até mil posições), duas threads são o suficiente, não havendo uma grande diferença no tempo de execução em tentativas com mais threads.
 
-4. Para um vetor de MIL(1000) elementos:<br>
+4. Para MIL(1000) repetições:<br>
 
-| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
 | 1.000.000         | 1            | 4.425.149,3         |
 | 500.000          | 2            | 2.938.732,4         |
@@ -39,9 +39,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 125.000          | 8            | 3.787.474,5         |
 | 62.500           | 16           | 6.590.990,8         |
 
-   <br>Para um vetor de DOIS MIL(2000) elementos:<br>
+   <br>Para Para DUAS MIL(2000) repetições:<br>
    
-| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
 | 1.000.000         | 1            | 11.518.515,9        |
 | 500.000          | 2            | 8.339.331,5         |
@@ -49,9 +49,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 125.000          | 8            | 5.784.597,6         |
 | 62.500           | 16           | 6.590.990,8         |
 
-   <br>Para um vetor de CINCO MIL(5000) elementos:<br>
+   <br>Para CINCO MIL(5000) repetições:<br>
    
-| Núm. Repetições | Núm. Threads |  Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads |  Tempo Médio(usec) |
 |:---------------:|:------------:|:------------------:|
 | 1.000.000         | 1            | 28.547.986,1         |
 | 500.000          | 2            | 19.009.499,9         |
@@ -66,9 +66,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 ## Open MP
 1. [Programa](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t3/openmp/newomp.c)
 
-2. Para um vetor de MIL(1000) elementos:<br>
+2. Para MIL(1000) repetições:<br>
 
-| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
 | 1.000.000         | 1            | 5.474.294           |
 | 500.000          | 2            | 2.815.437,6         |
@@ -76,9 +76,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 12.5000          | 8            | 2.765.119           |
 | 62.500           | 16           | 2.658.835,3         |
 
-   <br>Para um vetor de DOIS MIL(2000) elementos:<br>
+   <br>Para DUAS MIL(2000) repetições:<br>
    
-| Núm. Repetições | Núm. Threads | Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
 | 1.000.000         | 1            | 10.763.214,2        |
 | 500.000          | 2            | 9.537.260,6         |
@@ -86,9 +86,9 @@ Figuras 4 e 5: Execução do código de acordo com as instruções do documento 
 | 125.000          | 8            | 10.062.858,9        |
 | 62.500           | 16           | 7.168.232,7         |
 
-   <br>Para um vetor de CINCO MIL(5000) elementos:<br>
+   <br>Para CINCO MIL(5000) repetições:<br>
    
-| Núm. Repetições | Núm. Threads |  Tempo Médio(usec) |
+| Tam. Vetor | Núm. Threads |  Tempo Médio(usec) |
 |:---------------:|:------------:|:------------------:|
 | 1.000.000         | 1            | 24.833.317,5         |
 | 500.000          | 2            | 19.721.949,3         |
