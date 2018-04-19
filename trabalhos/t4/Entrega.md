@@ -15,6 +15,6 @@ Nome: João Vitor Machado de Mello
   <img width="569" height="83" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t4/sc1.jpg"><br>
 </p>
 - Referências:
-  - [Tutorial OpenMP] (https://computing.llnl.gov/tutorials/openMP/)
-  - [OpenMP Scheduling] (http://cs.umw.edu/~finlayson/class/fall14/cpsc425/notes/12-scheduling.html)
-  - [Slides da disciplina sobre OpenMP] (https://github.com/AndreaInfUFSM/elc139-2018a/tree/master/slides)
+  - [Tutorial OpenMP] (https://computing.llnl.gov/tutorials/openMP/) <br>
+  - [OpenMP Scheduling] (http://cs.umw.edu/~finlayson/class/fall14/cpsc425/notes/12-scheduling.html) <br>
+  - [Slides da disciplina sobre OpenMP] (https://github.com/AndreaInfUFSM/elc139-2018a/tree/master/slides) <br>
