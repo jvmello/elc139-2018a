@@ -10,8 +10,10 @@ Nome: João Vitor Machado de Mello
 - [Schedule Runtime](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t4/ThreadABCRuntime.cpp);
 - [Schedule Auto](https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t4/ThreadABCAuto.cpp).
 
-- Exemplo de saída do caso Guided:
-
+- Exemplo de saída dos casos Estático e Dinâmico:
+<p align="center">
+  <img width="569" height="83" src="https://github.com/jvmello/elc139-2018a/blob/master/trabalhos/t4/sc1.jpg"><br>
+</p>
 - Referências:
   - [Tutorial OpenMP] (https://computing.llnl.gov/tutorials/openMP/)
   - [OpenMP Scheduling] (http://cs.umw.edu/~finlayson/class/fall14/cpsc425/notes/12-scheduling.html)
