@@ -1,0 +1,17 @@
+elc139 - Programação Paralela
+
+Filipe Simões e João Vitor Machado de Mello
+
+## Abordagens
+
+[Abordagem 1](firesim1.cpp)
+
+[Abordagem 2](firesim2.cpp)
+
+## Slides
+
+[Slide](slides.pdf)
+
+## Referências:
+
+- [Tutorial OpenMP](https://computing.llnl.gov/tutorials/openMP/) 
