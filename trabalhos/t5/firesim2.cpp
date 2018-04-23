@@ -70,26 +70,26 @@ main(int argc, char* argv[])
       //Opção 2: paralelizar calculo de percentual de forma dinâmica com schedule
       #pragma omp parallel private(ip, it)
       {
-      	  Forest* forest = new Forest(forest_size);
-	      #pragma omp for schedule(dynamic)
-	      for (ip = 0; ip < n_probs; ip++) {
-	      	 prob_spread[ip] = prob_min + (double) ip * prob_step;
-	         percent_burned[ip] = 0.0;
-	         rand.setSeed(base_seed+ip); // nova seqüência de números aleatórios
-	         // executa vários experimentos
-	         for (it = 0; it < n_trials; it++) {
-	            // queima floresta até o fogo apagar
-	            forest->burnUntilOut(forest->centralTree(), prob_spread[ip], rand);
-	            percent_burned[ip] += forest->getPercentBurned();
-	         }
+         Forest* forest = new Forest(forest_size);
+	 #pragma omp for schedule(dynamic)
+	 for (ip = 0; ip < n_probs; ip++) {
+	    prob_spread[ip] = prob_min + (double) ip * prob_step;
+	    percent_burned[ip] = 0.0;
+	    rand.setSeed(base_seed+ip); // nova seqüência de números aleatórios
+	    // executa vários experimentos
+	    for (it = 0; it < n_trials; it++) {
+	       // queima floresta até o fogo apagar
+	       forest->burnUntilOut(forest->centralTree(), prob_spread[ip], rand);
+	       percent_burned[ip] += forest->getPercentBurned();
+	    }
 	
-	         // calcula média dos percentuais de árvores queimadas
+	    // calcula média dos percentuais de árvores queimadas
 	         percent_burned[ip] /= n_trials;
 	
-	         // mostra resultado para esta probabilidade
-	         printf("Thread %d: %lf, %lf\n", omp_get_thread_num()+1, prob_spread[ip], percent_burned[ip]);
-	      }
+	    // mostra resultado para esta probabilidade
+	    printf("Thread %d: %lf, %lf\n", omp_get_thread_num()+1, prob_spread[ip], percent_burned[ip]);
 	  }
+      }
 
       delete[] prob_spread;
       delete[] percent_burned;
