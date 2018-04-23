@@ -14,7 +14,7 @@
 #include <omp.h>
 
 void
-checkCommandLine(int argc, char** argv, int& size, int& trials, int& probs)
+checkCommandLine(int argc, char** argv, int& size, int& trials, int& probs, int& threads)
 {
    if (argc > 1) {
       size = atoi(argv[1]);
@@ -24,7 +24,10 @@ checkCommandLine(int argc, char** argv, int& size, int& trials, int& probs)
    }
    if (argc > 3) {
       probs = atoi(argv[3]);
-   }   
+   }
+   if (argc > 4) {
+      threads = atoi(argv[4]);
+   }    
 }
 
 int 
@@ -35,6 +38,7 @@ main(int argc, char* argv[])
    int forest_size = 30;
    int n_trials = 5000;
    int n_probs = 101;
+   int n_threads = 2;
 
    double* percent_burned; // percentuais queimados (saída)
    double* prob_spread;    // probabilidades (entrada)
@@ -44,11 +48,13 @@ main(int argc, char* argv[])
    int base_seed = 100;
    clock_t ini, fim;
 
-   checkCommandLine(argc, argv, forest_size, n_trials, n_probs);
+   checkCommandLine(argc, argv, forest_size, n_trials, n_probs, n_threads);
     
+   omp_set_num_threads(n_threads);
+
    try {
 		
-	  ini = clock();
+      ini = clock();
       Random rand;
       
       int ip, it;
@@ -81,14 +87,14 @@ main(int argc, char* argv[])
 	         percent_burned[ip] /= n_trials;
 	
 	         // mostra resultado para esta probabilidade
-	         printf("%lf, %lf\n", prob_spread[ip], percent_burned[ip]);
+	         printf("Thread %d: %lf, %lf\n", omp_get_thread_num()+1, prob_spread[ip], percent_burned[ip]);
 	      }
 	  }
 
       delete[] prob_spread;
       delete[] percent_burned;
       fim = clock();
-      printf("Tempo de execuckao = %lf segundos\n", (double)(fim-ini)/CLOCKS_PER_SEC);
+      printf("Tempo de execucao = %lf segundos\n", (double)(fim-ini)/CLOCKS_PER_SEC);
    }
    catch (std::bad_alloc)
    {
