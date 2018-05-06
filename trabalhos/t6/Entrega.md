@@ -17,3 +17,5 @@ Nomes: Filipe Simões, João Vitor Machado de Mello
 ## Referências:
 
 - [Tutorial OpenMP](https://computing.llnl.gov/tutorials/openMP/) 
+- [Open MP Scheduling](http://cs.umw.edu/~finlayson/class/fall16/cpsc425/notes/12-scheduling.html)
+- [Eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
