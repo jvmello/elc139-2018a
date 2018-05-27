@@ -10,7 +10,7 @@ Nome: João Vitor Machado de Mello
 
 [Parte 2]()
 
-[Parte 3 - 1](respostas/mpi_corrigido1.c)
+[Parte 3 - 1](respostas/mpi_corrigido1.c) |
 [Parte 3 - 2](respostas/mpi_corrigido2.c)
 
 ## Referências:
