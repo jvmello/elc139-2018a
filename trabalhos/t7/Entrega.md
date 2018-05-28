@@ -6,7 +6,7 @@ Nome: João Vitor Machado de Mello
 
 ## Parte 1:
 - [Resposta](respostas/mpi_dotprod.c)
-- Resultados:<br>
+- Resultados:<br><br>
 Para MIL(1000) repetições:<br>
 
 | Tam. Vetor | Núm. Processos | Tempo Médio(usec) |
@@ -15,7 +15,7 @@ Para MIL(1000) repetições:<br>
 | 500.000          | 2            | 3.917.942,2        |
 | 250.000          | 4            | 3.293.994,3         |
 
-   <br>Para Para DUAS MIL(2000) repetições:<br>
+   <br>Para DUAS MIL(2000) repetições:<br>
    
 | Tam. Vetor | Núm. Processos | Tempo Médio(usec) |
 |:---------------:|:------------:|:-----------------:|
