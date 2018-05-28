@@ -15,8 +15,8 @@ Nome: João Vitor Machado de Mello
 - [Resposta 2](respostas/mpi_corrigido2.c)
 
 ## Referências:
-- [MPI Send and Receive] (http://mpitutorial.com/tutorials/mpi-send-and-receive/) <br>
-- [MPI Reduce and Allreduce] (http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/) <br>
-- [Message Passing Interface (MPI)] (https://computing.llnl.gov/tutorials/mpi/) <br>
-- [First examples in MPI] (http://hamilton.nuigalway.ie/teaching/AOS/NINE/mpi-first-examples.html) <br>
-- [MPI - C Examples] (http://people.sc.fsu.edu/~jburkardt/c_src/mpi/mpi.html) <br>
+- [MPI Send and Receive] (http://mpitutorial.com/tutorials/mpi-send-and-receive/)
+- [MPI Reduce and Allreduce] (http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/)
+- [Message Passing Interface (MPI)] (https://computing.llnl.gov/tutorials/mpi/)
+- [First examples in MPI] (http://hamilton.nuigalway.ie/teaching/AOS/NINE/mpi-first-examples.html)
+- [MPI - C Examples] (http://people.sc.fsu.edu/~jburkardt/c_src/mpi/mpi.html)
