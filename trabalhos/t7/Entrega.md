@@ -8,7 +8,7 @@ Nome: João Vitor Machado de Mello
 
 [Parte 1](respostas/dotprod_mpi.c)
 
-[Parte 2]()
+[Parte 2](respostas/mpi_pipeline.c)
 
 [Parte 3 - 1](respostas/mpi_corrigido1.c) |
 [Parte 3 - 2](respostas/mpi_corrigido2.c)
