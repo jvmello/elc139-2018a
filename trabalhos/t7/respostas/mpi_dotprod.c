@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-typedef struct 
-{
+typedef struct{
    	double *a;
    	double *b;
    	double c;
@@ -14,18 +13,18 @@ typedef struct
 
 dotdata_t dotdata;
 
-double dot_product(double *x, double *y, int n, int rep){
+double dot_product(double *a, double *b, int n, int rep){
   	int i, j;
 	double dotprod = 0.0;
   
   	for(j = 0; j < rep; j++){
 		dotprod = 0.0;
 		for(i = 0; i < n; i++){
-    		dotprod += x[i]*y[i];
+    		dotprod += a[i] * b[i];
 		}
 	}
 
-  return dotprod;
+  	return dotprod;
 }
 
 void fill(double *a, int size, double value){  
@@ -69,8 +68,10 @@ int main(int argc, char *argv[]){
    	dotdata.b = (double *) malloc(n*p*sizeof(double));
    	fill(dotdata.b, p * n, 1.0);
   	
+	//calcula o produto localmente em cada processo
 	local_prod = dot_product(dotdata.a, dotdata.b, n, dotdata.repeat);
 
+	//reúne todos os resultados
   	MPI_Reduce(&local_prod, &prod, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
 	
 	end_time = wtime();  
@@ -89,5 +90,4 @@ int main(int argc, char *argv[]){
 
    	return 0;
 }
-
 
