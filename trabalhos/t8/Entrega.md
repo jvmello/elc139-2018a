@@ -11,3 +11,6 @@ Nomes: João Vitor Machado de Mello
 [Resposta 2](matrix_mult_send.c)
 
 ## Referências:
+- [MPI: A Message-Passing Interface Standard](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf)  
+- [A Comprehensive MPI Tutorial Resource](http://mpitutorial.com/)  
+- [MPI Scatter, Gather, and Allgather](http://mpitutorial.com/tutorials/mpi-scatter-gather-and-allgather/)
